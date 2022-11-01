@@ -19,6 +19,7 @@ Projeto de estudo para capturar dados de formulários HTML, através do método 
 Esta é a primeira versão desta tela, logo estarei implementando ela.
 
 <hr>
+<h2>Deploy: https://profelgio.duckdns.org/progweb/EAD/viniciusrlemos/pratico1-tela_login/index.html </h2>
 
 <h1 align="center">Gif do Resultado</h1>
 <div align="center">
