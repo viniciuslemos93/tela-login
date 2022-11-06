@@ -9,15 +9,18 @@
 </head>
 <body>
     <section class="container">
+
+        <script src="assets/scripts/script.js"></script>
+
         <h1>Tela de Login</h1>
         
-        <form action="assets/scripts/login.php" method="post">
-            Nome: <input type="text" placeholder="digite seu nome" name="nome"> <br>
+        <form action="assets/scripts/login.php" method="post" id="login">
+            Nome: <input type="text" placeholder="digite seu nome" name="nome" id="nome"> <br>
             Login: <input type="text" placeholder="digite o login" name="login"> <br>
             Senha: <input type="password" placeholder="digite sua senha" name="senha"> <br>
-            <input type="submit" value="Login" class="btn-login">            
+            <input type="submit" value="Login" class="btn-login">
         </form>
-        <a href="assets/paginas/cadastrar.php">Ainda não é inscrito? <strong>Cadastre-se</strong></a>
+        <a href="assets/paginas/cadastrar.php">Ainda não é inscrito? <strong>Cadastre-se</strong></a>        
 
     </section>
 </body>

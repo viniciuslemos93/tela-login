@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="../estilo/estilo.css">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,7 +30,7 @@
     
     ?>
 
-    <a href="index.html">Voltar</a>
+    <a href="../../index.html">Voltar</a>
     </section>
 </body>
 </html>
