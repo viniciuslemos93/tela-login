@@ -4,7 +4,7 @@ function validar_form_login() {
     
     if (login === "") {
         alert("O campo {Login} é obrigatório!");
-        form_login.nome.focus();
+        form_login.login.focus();
         return false;
     }
     if (senha === "") {
