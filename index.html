@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="assets/estilo/estilo.css">
+
 </head>
 <body>
     <section class="container">
-
-        <script src="assets/scripts/script.js"></script>
+        
+        <script src="assets/scripts/script.js"></script>        
 
         <h1>Tela de Login</h1>
-        
-        <form action="assets/scripts/login.php" method="post" id="login">
-            Nome: <input type="text" placeholder="digite seu nome" name="nome" id="nome"> <br>
-            Login: <input type="text" placeholder="digite o login" name="login"> <br>
+        <!--assets/scripts/login.php-->
+        <form action="" method="post" name="form_login">            
+            Login: <input type="text" placeholder="digite o login" name="login" id="login"> <br>
             Senha: <input type="password" placeholder="digite sua senha" name="senha"> <br>
-            <input type="submit" value="Login" class="btn-login">
+            <input type="submit" class="btn-login" value="Login" onclick="return validar_form_login()">
         </form>
         <a href="assets/paginas/cadastrar.php">Ainda não é inscrito? <strong>Cadastre-se</strong></a>        
 

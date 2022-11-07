@@ -1,9 +1,15 @@
-const formulario = document.querySelector ("#login");
-
-formulario.onsubmit = evento => {
-    //Receber o valor co campo
-    var nome = document.querySelector("#nome").value;
-
-    console.log(nome);
-    evento.preventDefault();
+function validar_form_login() {
+    var login = form_login.login.value;
+    var senha = form_login.senha.value;
+    
+    if (login === "") {
+        alert("O campo {Login} é obrigatório!");
+        form_login.nome.focus();
+        return false;
+    }
+    if (senha === "") {
+        alert("O campo {Senha} é obrigatório!");
+        form_login.senha.focus();
+        return false;
+    }
 }
