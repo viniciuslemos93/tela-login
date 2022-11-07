@@ -18,8 +18,8 @@
             Nome: <input type="text" placeholder="Nome completo" name="nome" id="nome"> <br>
             Telefone: <input type="text" placeholder="Telefone" name="telefone" id="telefone"> <br>
             E-mail: <input type="text" placeholder="E-mail" name="email" id="email"> <br>
-            Senha: <input type="password" placeholder="Senha" name="senha" id="senha"> <br>
-            Confirmar Senha: <input type="password" placeholder="Confirmar senha" name="confirmar-senha" id="confirmar_senha"> <br>
+            Senha: <input type="password" placeholder="Senha" name="senha" id="senha" required onchange='confere_senha ();'> <br>
+            Confirmar Senha: <input type="password" placeholder="Confirmar senha" name="confirmar-senha" id="confirmar_senha" required onchange='confere_senha ();'> <br>
             <input type="submit" value="Cadastrar" class="btn-cadastrar" onclick="return validar_form_cadastro()">
             <a href="../../index.html">Voltar</a>
         </form>

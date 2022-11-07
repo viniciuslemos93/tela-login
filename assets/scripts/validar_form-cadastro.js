@@ -1,9 +1,10 @@
-function validar_form_cadastro() {
+var senha = form_cadastro.senha.value;
+var confirmar_senha = form_cadastro.confirmar_senha.value;
+function validar_form_cadastro () {
+    //Variáveis para receber todos os valores do formulário
     var nome = form_cadastro.nome.value;    
     var email = form_cadastro.email.value;
-    var senha = form_cadastro.senha.value;
-    var confirmar_senha = form_cadastro.confirmar_senha.value;
-
+    
     
     if (nome === "") {
         alert("O campo {Nome} é obrigatório!");
@@ -24,5 +25,15 @@ function validar_form_cadastro() {
         alert("O campo {Confirmar senha} é obrigatório!");
         form_cadastro.confirmar_senha.focus();
         return false;
+    }
+
+}
+//Função para validar se as senhas conferem nos dois campos.
+function confere_senha () {    
+
+    if (confirmar_senha === senha) {        
+        confirmar_senha.setCustomValidity('');
+    } else {
+        confirmar_senha.setCustomValidity('As senhas não conferem');        
     }
 }
